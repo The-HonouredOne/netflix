@@ -1,0 +1,9 @@
+.footer{
+
+}
+.footer-icon{
+    display:grid;
+}
+.footer-icon img{
+    height: 20px;
+}

@@ -1,0 +1,43 @@
+
+.title-cards{
+    margin-top: 30px;
+    margin-bottom: 7px;
+    
+
+}
+.title-cards h2{
+    margin-bottom: 8px;
+}
+
+.card-list{
+    overflow-x:scroll ;
+    display: flex;
+    gap: 10px;
+
+}
+.card-list img{
+    width: 240px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.card-list::-webkit-scrollbar{
+    display: none;
+}
+.card-list .cards{
+    position: relative;
+    display: flex;
+    /* width: 10vw; */
+     /* height: 10vh; */
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+} 
+.card-list .cards p{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
